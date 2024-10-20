@@ -265,7 +265,11 @@ margin-top: 100px;
         height: 1500px;
     }
     .nav-containers{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
     .nav-menu{
        display: block;
@@ -281,11 +285,15 @@ margin-top: 100px;
         display: flex;
         flex-direction: column;
         align-items: center; 
-        line-height: 20px;
+       gap: 30px;
         
     }
     .folder{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 100px;
     }
     .review-box{
         display: flex;
@@ -294,24 +302,47 @@ margin-top: 100px;
     .img-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     .branches-content{
         display: block;
     }
     .branches-text{
-       display: block;
+        display: flex;
+        flex-direction: column;  
+        margin:30px;
     }
     .branches-section{
         display: block;
+        width: 576px;
+    }
+    .appointment{
+        display: flex;
+        flex-direction: column;
+        width: 576px;
+    }
+    .footer-first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 500px;
+        line-height: 25px;
     }
     .contact{
         display: flex;
         flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       line-height: 40px;
     }
     .second-img{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
     
 }
